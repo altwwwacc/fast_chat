@@ -1,0 +1,20 @@
+.ChatDialogueContentItem {
+  padding: 5px 10px;
+
+  &--own {
+    justify-content: flex-end;
+    display: flex;
+    .ChatDialogueContentItem__message {
+      background-color: #fff;
+    }
+
+  }
+  &__message {
+    border: 1px solid #ddd;
+    display: inline-flex;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #bbdabb;
+  }
+
+}

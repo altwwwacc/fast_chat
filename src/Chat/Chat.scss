@@ -1,0 +1,13 @@
+.Chat {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  .ChatList {
+    width: 300px;
+    border-right: 1px solid #ddd;
+  }
+  .ChatDialogue {
+    display: flex;
+    flex:  1 1 100%;
+  }
+}

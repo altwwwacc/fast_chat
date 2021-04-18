@@ -1,0 +1,20 @@
+.ChatListItem {
+  padding: 3px 5px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+
+  &__lastMessage {
+    font-style: italic;
+    font-size: 12px;
+    color: rgba(0,0,0,0.7);
+  }
+
+  &--active {
+    background-color: aliceblue;
+  }
+
+  &:hover {
+
+    background-color: rgba(0,0,0,0.1);
+  }
+}

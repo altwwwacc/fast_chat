@@ -1,0 +1,28 @@
+.ChatDialogue {
+  display: flex;
+  flex-direction: column;
+  &__content {
+    display: flex;
+    flex:  1 1 100%;
+    flex-direction: column;
+    background-color: rgb(195 195 195 / 10%);
+  }
+  &__footer {
+    border-top: 1px solid #ddd;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+
+    input {
+      display: flex;
+      flex:  1 1 100%;
+      border: 0;
+      border-bottom: 1px solid #ccc;
+      margin-right: 10px;
+    }
+    button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  }
+}
